@@ -20,18 +20,6 @@ collaborative_notes: https://pad.carpentries.org/2021-01-11-UMich-WISE-online # 
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
-<p id="registration" align="center">
-  <strong>
-    <font size="36">
-    <a href="https://ttc.iss.lsa.umich.edu/ttc/sessions/software-carpentry-workshop-wise-shell-r-git-2/" target="_blank">Click Here to Register</a>
-    </font>
-  </strong>
-</p>
-
-<p align="center">
-  If you do not have a current University of Michigan account, please visit <a href="https://friend.weblogin.umich.edu/friend/">this site</a> to create a Friend account before attempting to register.
- </p>
- 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
 {% comment %}
@@ -270,6 +258,19 @@ Edit the text to match who can attend the workshop. For instance:
     This workshop is open to ....
 </p>
 {% endcomment %}
+
+
+<p id="registration" align="center">
+  <strong>
+    <font size="36">
+    <a href="https://ttc.iss.lsa.umich.edu/ttc/sessions/software-carpentry-workshop-wise-shell-r-git-2/" target="_blank">Click Here to Register</a>
+    </font>
+  </strong>
+</p>
+
+<p align="center">
+  If you do not have a current University of Michigan account, please visit <a href="https://friend.weblogin.umich.edu/friend/">this site</a> to create a Friend account before attempting to register.
+</p>
 
 <hr/>
 
