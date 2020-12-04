@@ -394,7 +394,7 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 <p>
-  If you get stuck, <a href = "https://join.slack.com/t/umcoderspaces/signup">join the CoderSpaces Slack workspace</a>.
+  If you get stuck, <a href = "https://join.slack.com/t/umcoderspaces/signup">join the CoderSpaces Slack workspace</a>
   and ask for help in the <a href = "https://umcoderspaces.slack.com/archives/C01GX4E85TJ">#install-party channel</a>. 
   We monitor that channel and will help you out as soon as we can!
 </p>
