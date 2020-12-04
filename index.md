@@ -385,12 +385,18 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  In addition, you will need an up-to-date web browser (e.g. Chrome or Firefox).
+  Make sure you have everything installed before the workshop.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+<p>
+  If you get stuck, [join the CoderSpaces Slack workspace](https://join.slack.com/t/umcoderspaces/signup) 
+  and ask for help in the [`#install-party`](https://umcoderspaces.slack.com/archives/C01GX4E85TJ) channel. 
+  We monitor that channel and will help you out as soon as we can!
 </p>
 
 {% comment %}
