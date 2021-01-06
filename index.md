@@ -387,15 +387,14 @@ of code below the Schedule `<h2>` header below with
   We monitor that channel and will help you out as soon as we can!
 </p>
 
-
 <h3>Pre-workshop setup steps</h3>
 
-1. Install the following software (all instructions are below).
-    1. Zoom (make sure you have the latest version)
-    1. A Unix shell
-    1. [git](https://git-scm.com/)
-    1. [R](https://www.r-project.org/)
-    1. [RStudio](https://rstudio.com/), an integrated development environment for R
+1. Install the following software ([all instructions are below](#Software-Installation-Instructions)).
+    - Zoom (make sure you have the latest version)
+    - A Unix shell
+    - [git](https://git-scm.com/)
+    - [R](https://www.r-project.org/)
+    - [RStudio](https://rstudio.com/), an integrated development environment for R
 1. Create a [GitHub](https://github.com/) account if you do not already have one. You'll need to know the email associated with your account during the git lesson of the workshop.
 1. After you have installed everything above, download [un-report.zip](https://github.com/UMSWC/curriculum/raw/setup-zip/files/un-report.zip). You'll need the files included during the workshop.
     1. Move `un-report.zip` to your Desktop and unzip it (usually double-clicking it will work).
@@ -414,6 +413,7 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+### Software Installation Instructions
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
