@@ -360,18 +360,6 @@ of code below the Schedule `<h2>` header below with
 <hr/>
 
 
-{% comment %}
-SETUP
-
-Delete irrelevant sections from the setup instructions.  Each
-section is inside a 'div' without any classes to make the beginning
-and end easier to find.
-
-This is the other place where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
-
 <h2 id="setup">Setup</h2>
 
 <p>
@@ -395,20 +383,28 @@ please preview your site before committing, and make sure to run
 </p>
 <p>
   If you get stuck, <a href = "https://join.slack.com/t/umcoderspaces/signup">join the CoderSpaces Slack workspace</a>
-  and ask for help in the <a href = "https://umcoderspaces.slack.com/archives/C01GX4E85TJ">#install-party channel</a>. 
+  and ask for help in the <a href = "https://umcoderspaces.slack.com/archives/C01GX4E85TJ">#install-party channel</a>.
   We monitor that channel and will help you out as soon as we can!
 </p>
 
-{% comment %}
-For online workshops, the section below provides:
-- installation instructions for the Zoom client
-- recommendations for setting up Learners' workspace so they can follow along
-  the instructions and the videoconferencing
 
-If you do not use Zoom for your online workshop, edit the file
-`_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instrucctions.
-{% endcomment %}
+<h3>Pre-workshop setup steps</h3>
+
+1. Install the following software (all instructions are below).
+    1. Zoom (make sure you have the latest version)
+    1. A Unix shell
+    1. [git](https://git-scm.com/)
+    1. [R](https://www.r-project.org/)
+    1. [RStudio](https://rstudio.com/), an integrated development environment for R
+1. Create a [GitHub](https://github.com/) account if you do not already have one. You'll need to know the email associated with your account during the git lesson of the workshop.
+1. After you have installed everything above, download [un-report.zip](https://github.com/UMSWC/curriculum/raw/setup-zip/files/un-report.zip). You'll need the files included during the workshop.
+    1. Move `un-report.zip` to your Desktop and unzip it (usually double-clicking it will work).
+    1. Start up **RStudio**. In the upper left menu, select `File` > `Open`. In the window that opens, go to the `un-report/` folder on your Desktop and select the file `check_setup.R` to open it in RStudio.
+    1. Click the **`Source`** button to run the script. This script will make sure that everything is installed and setup correctly. You should see output printed to the console window (usually the lower left pane in RStudio).
+    1. Take a screenshot of the console output (or copy & paste it) into an email and send it to the lead instructor. If everything worked, they'll give you the Zoom meeting ID for the workshop. Otherwise, they'll help you get everything setup correctly before giving you the Zoom ID.
+
+If at any point you get stuck or run into problems, please don't hesitate to ask us for help!
+
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
