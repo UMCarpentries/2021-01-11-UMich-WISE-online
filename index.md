@@ -391,7 +391,7 @@ of code below the Schedule `<h2>` header below with
 
 1. Install the following software (<a href="#install">all instructions are below</a>).
     - Zoom (make sure you have the latest version)
-    - A Unix shell
+    - A Unix shell (e.g. bash, zsh)
     - [git](https://git-scm.com/)
     - [R](https://www.r-project.org/)
     - [RStudio](https://rstudio.com/), an integrated development environment for R
