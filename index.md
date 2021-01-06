@@ -389,7 +389,7 @@ of code below the Schedule `<h2>` header below with
 
 <h3>Pre-workshop setup steps</h3>
 
-1. Install the following software ([all instructions are below](#Software-Installation-Instructions)).
+1. Install the following software (<a href="#install">all instructions are below</a>).
     - Zoom (make sure you have the latest version)
     - A Unix shell
     - [git](https://git-scm.com/)
@@ -404,6 +404,9 @@ of code below the Schedule `<h2>` header below with
 
 If at any point you get stuck or run into problems, please don't hesitate to ask us for help!
 
+
+<h2 id="install">Software Installation Instructions</h2>
+
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
@@ -413,7 +416,6 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-### Software Installation Instructions
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
