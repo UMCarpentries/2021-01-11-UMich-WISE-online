@@ -372,9 +372,10 @@ of code below the Schedule `<h2>` header below with
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
+  you will need to complete the Pre-workshop setup steps below.
   In addition, you will need an up-to-date web browser (e.g. Chrome or Firefox).
-  Make sure you have everything installed before the workshop.
+  You will not be able to participate in the workshop if you do not complete
+  these steps ahead of time.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
@@ -400,7 +401,7 @@ of code below the Schedule `<h2>` header below with
     1. Move `un-report.zip` to your Desktop and unzip it (usually double-clicking it will work).
     1. Start up **RStudio**. In the upper left menu, select `File` > `Open`. In the window that opens, go to the `un-report/` folder on your Desktop and select the file `check_setup.R` to open it in RStudio.
     1. Click the **`Source`** button to run the script. This script will make sure that everything is installed and setup correctly. You should see output printed to the console window (usually the lower left pane in RStudio).
-    1. Take a screenshot of (or copy & paste) the console output into an email and send it to the lead instructor. Be sure to include the line starting with `source("` to the end. If everything worked, they'll give you the Zoom meeting ID for the workshop. Otherwise, they'll help you get everything setup correctly before giving you the Zoom ID.
+    1. Take a screenshot of (or copy & paste) the console output and send it via email to the lead instructor. Be sure to include the line starting with `source("` to the end. If everything worked, they'll give you the Zoom meeting ID for the workshop. Otherwise, they'll help you get everything setup correctly before giving you the Zoom ID.
 
 If at any point you get stuck or run into problems, please don't hesitate to ask us for help!
 
